@@ -1,0 +1,238 @@
+GROUP                  = ARCHIVEDMETADATA
+  GROUPTYPE            = MASTERGROUP
+
+  OBJECT                 = SPSOPARAMETERS
+    NUM_VAL              = 1
+    VALUE                = "2015"
+  END_OBJECT             = SPSOPARAMETERS
+
+  GROUP                  = BOUNDINGRECTANGLE
+
+    OBJECT                 = NORTHBOUNDINGCOORDINATE
+      NUM_VAL              = 1
+      VALUE                = 19.9999999982039
+    END_OBJECT             = NORTHBOUNDINGCOORDINATE
+
+    OBJECT                 = SOUTHBOUNDINGCOORDINATE
+      NUM_VAL              = 1
+      VALUE                = 9.99999999910196
+    END_OBJECT             = SOUTHBOUNDINGCOORDINATE
+
+    OBJECT                 = EASTBOUNDINGCOORDINATE
+      NUM_VAL              = 1
+      VALUE                = 117.068423108606
+    END_OBJECT             = EASTBOUNDINGCOORDINATE
+
+    OBJECT                 = WESTBOUNDINGCOORDINATE
+      NUM_VAL              = 1
+      VALUE                = 101.542661179175
+    END_OBJECT             = WESTBOUNDINGCOORDINATE
+
+  END_GROUP              = BOUNDINGRECTANGLE
+
+  OBJECT                 = GEOANYABNORMAL
+    NUM_VAL              = 1
+    VALUE                = "False"
+  END_OBJECT             = GEOANYABNORMAL
+
+  OBJECT                 = GEOESTMAXRMSERROR
+    NUM_VAL              = 1
+    VALUE                = 50.0
+  END_OBJECT             = GEOESTMAXRMSERROR
+
+  OBJECT                 = LONGNAME
+    NUM_VAL              = 1
+    VALUE                = "MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid"
+  END_OBJECT             = LONGNAME
+
+  OBJECT                 = PROCESSINGCENTER
+    NUM_VAL              = 1
+    VALUE                = "MODAPS"
+  END_OBJECT             = PROCESSINGCENTER
+
+  OBJECT                 = SYSTEMFILENAME
+    NUM_VAL              = 100
+    VALUE                = ("MOD09GQ.A2013329.h28v07.005.2013331094405.hdf", "MOD09GQ.A2013330.h28v07.005.2013332060800.hdf", "MOD09GQ.A2013331.h28v07.005.2013333181642.hdf", "MOD09GQ.A2013332.h28v07.005.2013334052420.hdf", "MOD09GQ.A2013333.h28v07.005.2013335212459.hdf", "
+        MOD09GQ.A2013334.h28v07.005.2013337003257.hdf", "MOD09GQ.A2013335.h28v07.005.2013337111329.hdf", "MOD09GQ.A2013336.h28v07.005.2013338143750.hdf", "MOD09GA.A2013329.h28v07.005.2013331094405.hdf", "MOD09GA.A2013330.h28v07.005.2013332060800.hdf", "
+        MOD09GA.A2013331.h28v07.005.2013333181642.hdf", "MOD09GA.A2013332.h28v07.005.2013334052419.hdf", "MOD09GA.A2013333.h28v07.005.2013335212459.hdf", "MOD09GA.A2013334.h28v07.005.2013337003256.hdf", "MOD09GA.A2013335.h28v07.005.2013337111328.hdf", "
+        MOD09GA.A2013336.h28v07.005.2013338143750.hdf")
+  END_OBJECT             = SYSTEMFILENAME
+
+  OBJECT                 = NUMBEROFGRANULES
+    NUM_VAL              = 1
+    VALUE                = 8
+  END_OBJECT             = NUMBEROFGRANULES
+
+  OBJECT                 = GRANULEDAYNIGHTFLAG
+    NUM_VAL              = 32
+    VALUE                = ("Day", "Day", "Day", "Day", "Day", "Day", "Day", "Day")
+  END_OBJECT             = GRANULEDAYNIGHTFLAG
+
+  OBJECT                 = GRANULEDAYOFYEAR
+    NUM_VAL              = 32
+    VALUE                = ("329", "330", "331", "332", "333", "334", "335", "336")
+  END_OBJECT             = GRANULEDAYOFYEAR
+
+  OBJECT                 = GRANULEBEGINNINGDATETIME
+    NUM_VAL              = 32
+    VALUE                = ("2013-11-25T02:45:00.000000Z", "2013-11-26T03:25:00.000000Z", "2013-11-27T02:30:00.000000Z", "2013-11-28T03:15:00.000000Z", "2013-11-29T02:20:00.000000Z", "2013-11-30T03:00:00.000000Z", "2013-12-01T02:05:00.000000Z", "2013-12-02T02:50:00.000000Z")
+  END_OBJECT             = GRANULEBEGINNINGDATETIME
+
+  OBJECT                 = GRANULEENDINGDATETIME
+    NUM_VAL              = 32
+    VALUE                = ("2013-11-25T04:30:00.000000Z", "2013-11-26T03:35:00.000000Z", "2013-11-27T04:15:00.000000Z", "2013-11-28T03:20:00.000000Z", "2013-11-29T04:05:00.000000Z", "2013-11-30T03:10:00.000000Z", "2013-12-01T03:55:00.000000Z", "2013-12-02T03:00:00.000000Z")
+  END_OBJECT             = GRANULEENDINGDATETIME
+
+  OBJECT                 = NUMBEROFORBITS
+    NUM_VAL              = 1
+    VALUE                = 12
+  END_OBJECT             = NUMBEROFORBITS
+
+  OBJECT                 = CHARACTERISTICBINANGULARSIZE250M
+    NUM_VAL              = 1
+    VALUE                = 7.5
+  END_OBJECT             = CHARACTERISTICBINANGULARSIZE250M
+
+  OBJECT                 = CHARACTERISTICBINSIZE250M
+    NUM_VAL              = 1
+    VALUE                = 231.656358263889
+  END_OBJECT             = CHARACTERISTICBINSIZE250M
+
+  OBJECT                 = DATACOLUMNS250M
+    NUM_VAL              = 1
+    VALUE                = 4800
+  END_OBJECT             = DATACOLUMNS250M
+
+  OBJECT                 = DATAROWS250M
+    NUM_VAL              = 1
+    VALUE                = 4800
+  END_OBJECT             = DATAROWS250M
+
+  OBJECT                 = GLOBALGRIDCOLUMNS250M
+    NUM_VAL              = 1
+    VALUE                = 172800
+  END_OBJECT             = GLOBALGRIDCOLUMNS250M
+
+  OBJECT                 = GLOBALGRIDROWS250M
+    NUM_VAL              = 1
+    VALUE                = 86400
+  END_OBJECT             = GLOBALGRIDROWS250M
+
+  OBJECT                 = NADIRDATARESOLUTION250M
+    NUM_VAL              = 1
+    VALUE                = "250m"
+  END_OBJECT             = NADIRDATARESOLUTION250M
+
+  OBJECT                 = CHARACTERISTICBINANGULARSIZE500M
+    NUM_VAL              = 1
+    VALUE                = 15.0
+  END_OBJECT             = CHARACTERISTICBINANGULARSIZE500M
+
+  OBJECT                 = CHARACTERISTICBINSIZE500M
+    NUM_VAL              = 1
+    VALUE                = 463.312716527778
+  END_OBJECT             = CHARACTERISTICBINSIZE500M
+
+  OBJECT                 = DATACOLUMNS500M
+    NUM_VAL              = 1
+    VALUE                = 2400
+  END_OBJECT             = DATACOLUMNS500M
+
+  OBJECT                 = DATAROWS500M
+    NUM_VAL              = 1
+    VALUE                = 2400
+  END_OBJECT             = DATAROWS500M
+
+  OBJECT                 = GLOBALGRIDCOLUMNS500M
+    NUM_VAL              = 1
+    VALUE                = 86400
+  END_OBJECT             = GLOBALGRIDCOLUMNS500M
+
+  OBJECT                 = GLOBALGRIDROWS500M
+    NUM_VAL              = 1
+    VALUE                = 43200
+  END_OBJECT             = GLOBALGRIDROWS500M
+
+  OBJECT                 = NADIRDATARESOLUTION500M
+    NUM_VAL              = 1
+    VALUE                = "500m"
+  END_OBJECT             = NADIRDATARESOLUTION500M
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND3
+    NUM_VAL              = 16
+    VALUE                = (100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND3
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND4
+    NUM_VAL              = 16
+    VALUE                = (100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND4
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND5
+    NUM_VAL              = 16
+    VALUE                = (86, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 10, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND5
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND6
+    NUM_VAL              = 16
+    VALUE                = (100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND6
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND7
+    NUM_VAL              = 16
+    VALUE                = (99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND7
+
+  OBJECT                 = PERCENTPROCESSED
+    NUM_VAL              = 1
+    VALUE                = 100
+  END_OBJECT             = PERCENTPROCESSED
+
+  OBJECT                 = PERCENTLAND
+    NUM_VAL              = 1
+    VALUE                = 40
+  END_OBJECT             = PERCENTLAND
+
+  OBJECT                 = PERCENTCLOUDY
+    NUM_VAL              = 1
+    VALUE                = 28
+  END_OBJECT             = PERCENTCLOUDY
+
+  OBJECT                 = PERCENTSHADOW
+    NUM_VAL              = 1
+    VALUE                = 10
+  END_OBJECT             = PERCENTSHADOW
+
+  OBJECT                 = PERCENTLOWSUN
+    NUM_VAL              = 1
+    VALUE                = 0
+  END_OBJECT             = PERCENTLOWSUN
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND1
+    NUM_VAL              = 16
+    VALUE                = (87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND1
+
+  OBJECT                 = QUALITYCLASSPERCENTAGE500MBAND2
+    NUM_VAL              = 16
+    VALUE                = (78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 0, 0)
+  END_OBJECT             = QUALITYCLASSPERCENTAGE500MBAND2
+
+  OBJECT                 = PERCENTLANDSEAMASKCLASS
+    NUM_VAL              = 8
+    VALUE                = (6, 40, 1, 0, 0, 0, 20, 33)
+  END_OBJECT             = PERCENTLANDSEAMASKCLASS
+
+  OBJECT                 = PROCESSINGENVIRONMENT
+    NUM_VAL              = 1
+    VALUE                = "Linux minion5038 2.6.18-348.16.1.el5PAE #1 SMP Wed Aug 21 04:49:45 EDT 2013 i686 i686 i386 GNU/Linux"
+  END_OBJECT             = PROCESSINGENVIRONMENT
+
+  OBJECT                 = DESCRREVISION
+    NUM_VAL              = 1
+    VALUE                = "5.1"
+  END_OBJECT             = DESCRREVISION
+
+END_GROUP              = ARCHIVEDMETADATA
+
+END
